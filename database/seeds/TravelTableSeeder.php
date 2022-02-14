@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use App\Travel;
 use Faker\Generator as Faker;
 
-class test_seeder extends Seeder
+class TravelTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
