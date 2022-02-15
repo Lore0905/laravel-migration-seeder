@@ -13,7 +13,7 @@ class Travel extends Migration
      */
     public function up()
     {
-        Schema::create('travel_agency', function (Blueprint $table) {
+        Schema::create('travel', function (Blueprint $table) {
             $table->id();
             $table->string('place', 100);
             $table->date('start');
@@ -36,6 +36,6 @@ class Travel extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('travel_agency');
+        Schema::dropIfExists('travel');
     }
 }
